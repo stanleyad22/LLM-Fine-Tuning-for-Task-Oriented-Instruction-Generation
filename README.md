@@ -2,11 +2,14 @@
 
 ## 1. Open-Source LLM 
 menggunakan Mistral-7B-Instruct v0.3 (huggingface.co/mistralai/Mistral-7B-Instruct-v0.3)
+
 Keunggulan : Lebih ringan jika dibandingkan dengan model lain (hanya 7B parameter) sehingga latensinya juga lebih rendah.
 
 ## 2. Dataset
 Tipe data menggunakan format JSON
+
 Contoh format :
+
 {
   "prompt": "How do I reset my password in the e-commerce XX mobile app?",
   "response": [
