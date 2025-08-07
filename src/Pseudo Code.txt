@@ -1,0 +1,11 @@
+1. Load the model (Mistral-7B-Instruct)
+2. Apply QLoRA to enable fine-tuning
+3. Load dataset
+4. Tokenize the dataset
+5. Set training parameters:
+   - Learning rate
+   - Batch size
+   - Epochs
+6. Initialize training
+7. Train model on training data, evaluate on validation data
+8. Save the final model for inference
